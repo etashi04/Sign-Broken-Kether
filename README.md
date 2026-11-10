@@ -3,7 +3,6 @@
 Steam판 **Sign: Broken Kether** 비공식 한국어 패치 저장소입니다.
 
 현재 버전은 `v1.0.1`이며 **Windows Steam 본편 1.05 / 빌드 26422637**을 지원합니다.
-한국어 번역 및 패치 제작·관리: **ETASHI** · 원작 개발팀: **Nekonoke Works / 猫猫毛工坊**
 
 [Steam 공식 상점](https://store.steampowered.com/app/3788590/)
 
