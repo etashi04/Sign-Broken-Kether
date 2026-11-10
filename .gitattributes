@@ -1,0 +1,4 @@
+distribution/patch/** -text
+*.jpg binary
+*.png binary
+*.ico binary

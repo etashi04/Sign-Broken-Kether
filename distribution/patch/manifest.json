@@ -1,0 +1,1411 @@
+{
+  "version": "v1.0.1",
+  "date": "2026-11-10",
+  "steam_appid": "3788590",
+  "supported_build": "26422637",
+  "archive_sha256": "1bd55116509504451ab33ef7237b0ae80838e2dbe7b2501abe50fe55edb63794",
+  "archive_size": 5328750156,
+  "files": [
+    {
+      "path": "fonts/ko/GowunDodum-Regular.ttf",
+      "kind": "file",
+      "payload": "payload/fonts/ko/GowunDodum-Regular.ttf",
+      "payload_sha256": "a6e457933227483a11758fd0947bc74422a106d46f0bf057fdaa5af94a30067d",
+      "output_sha256": "a6e457933227483a11758fd0947bc74422a106d46f0bf057fdaa5af94a30067d"
+    },
+    {
+      "path": "fonts/ko/OFL.txt",
+      "kind": "file",
+      "payload": "payload/fonts/ko/OFL.txt",
+      "payload_sha256": "a7c73f9521cd646bbdfb6684c99a62311bbd7bce11898dc11ef0b3c69eda1aca",
+      "output_sha256": "a7c73f9521cd646bbdfb6684c99a62311bbd7bce11898dc11ef0b3c69eda1aca"
+    },
+    {
+      "path": "ko_video_subtitles.json",
+      "kind": "file",
+      "payload": "payload/ko_video_subtitles.json",
+      "payload_sha256": "27aeb3e13319dbbb1539da8b47f9d291d23c6e886479d3c28a97e2bfe54b39c7",
+      "output_sha256": "27aeb3e13319dbbb1539da8b47f9d291d23c6e886479d3c28a97e2bfe54b39c7"
+    },
+    {
+      "path": "scripts/screens/config/gamepad/translations.rpy",
+      "kind": "file",
+      "payload": "payload/scripts/screens/config/gamepad/translations.rpy",
+      "payload_sha256": "725ac0069f376f8d099467ee5dc742b73446b5ed75ec6387115b1410d1481c83",
+      "output_sha256": "725ac0069f376f8d099467ee5dc742b73446b5ed75ec6387115b1410d1481c83"
+    },
+    {
+      "path": "scripts/screens/config/gamepad/translations.rpyc",
+      "kind": "file",
+      "payload": "payload/scripts/screens/config/gamepad/translations.rpyc",
+      "payload_sha256": "46fac6a81ce1b63f781cfd9209f1c522f092b0654412ce98148daad76da56a93",
+      "output_sha256": "46fac6a81ce1b63f781cfd9209f1c522f092b0654412ce98148daad76da56a93"
+    },
+    {
+      "path": "tl/japanese/audio/videos/ep0.webm",
+      "kind": "video_delta",
+      "payload": "video_deltas/00.kvd",
+      "payload_sha256": "00e374d25496336842ce819ea08077e36b4b0c5b093d9fcbebb5e5903f9c5897",
+      "base_member": "tl/japanese/audio/videos/ep0.webm",
+      "base_sha256": "4c74f29ea720cf99df6454a0a37d477f351375d6ae14bde984aa855a2a6388ed",
+      "target_size": 2125877,
+      "output_sha256": "509979cddc5cb07b6b1c6efbf71fc8d9a9aadb58736e36f6429dc7b11088a07c"
+    },
+    {
+      "path": "tl/japanese/audio/videos/ep1.webm",
+      "kind": "video_delta",
+      "payload": "video_deltas/01.kvd",
+      "payload_sha256": "fb5517ec517552c75249df4d1a20b834899c10f19f2ccd03212a2221a2364605",
+      "base_member": "tl/japanese/audio/videos/ep1.webm",
+      "base_sha256": "fdb39b787755d5a47b405224127d12b00463e88129697e640161d13eeb1482c0",
+      "target_size": 2105241,
+      "output_sha256": "5602638c1f0550ed40fc5fb1efb7d3c0fbe990e874a0d97d995138a6b0859913"
+    },
+    {
+      "path": "tl/japanese/audio/videos/ep10.webm",
+      "kind": "video_delta",
+      "payload": "video_deltas/10.kvd",
+      "payload_sha256": "e3e7b82265d1122b16f30d2ff30edaceef2cdcb2b70c6c1ae494fd1135e8b54f",
+      "base_member": "tl/japanese/audio/videos/ep10.webm",
+      "base_sha256": "c76ed1e58b7a78b4cc43951032e7f992bf078cc80a209ead49e267435c0eb187",
+      "target_size": 2128396,
+      "output_sha256": "0164b32a2477b4c10b3c0eb4c04bfb201bb2d6cdb51e48362f56699674bd31a1"
+    },
+    {
+      "path": "tl/japanese/audio/videos/ep2.webm",
+      "kind": "video_delta",
+      "payload": "video_deltas/02.kvd",
+      "payload_sha256": "a8c19ee5e373d40581feee2bf504ffa0687a4c2b1db0c2435aeead1137776689",
+      "base_member": "tl/japanese/audio/videos/ep2.webm",
+      "base_sha256": "bb059a911bf4446d3db4209696ef55233a2663e79c5deef367153a85ae1cd7ce",
+      "target_size": 2101162,
+      "output_sha256": "8f096215571cf430fc9ae06765c687c1fa98257486cf9a46c1dd79377e948178"
+    },
+    {
+      "path": "tl/japanese/audio/videos/ep3.webm",
+      "kind": "video_delta",
+      "payload": "video_deltas/03.kvd",
+      "payload_sha256": "0a6439c42b1e3f6f63adb451e368194f8653987f322183ca3b0f1ff9e892eaa9",
+      "base_member": "tl/japanese/audio/videos/ep3.webm",
+      "base_sha256": "71a7a77114bd6f37304f57f7b675125a08162f77ad8cb3ad581ee442637226ad",
+      "target_size": 2098858,
+      "output_sha256": "4c85b754724c09e786612d1c34a604fbf936657d9a4b55742f838390872174b4"
+    },
+    {
+      "path": "tl/japanese/audio/videos/ep4.webm",
+      "kind": "video_delta",
+      "payload": "video_deltas/04.kvd",
+      "payload_sha256": "98a0995a38d268123b89af482d8338620dc982695f3b37971c6d4c789c4646c3",
+      "base_member": "tl/japanese/audio/videos/ep4.webm",
+      "base_sha256": "356b9bf1fb4382a89b12f3191ae5e945362d5614162a0592abe7edd54f384a2b",
+      "target_size": 2100174,
+      "output_sha256": "fd5f854d508a703f931dfb35636da590875bc681d21a7569cbe222a6b6d8bb38"
+    },
+    {
+      "path": "tl/japanese/audio/videos/ep5.webm",
+      "kind": "video_delta",
+      "payload": "video_deltas/05.kvd",
+      "payload_sha256": "9bc79a7be37db791bcbded36898f4423533c576f815bf8b2eaf8ee279d89920a",
+      "base_member": "tl/japanese/audio/videos/ep5.webm",
+      "base_sha256": "fc0de5d6cde5599505a5eeed2512869ac13f9bfdfedebb8d42142fa46cded072",
+      "target_size": 2124572,
+      "output_sha256": "4445e51b978989da9f8b91d26fb7c18159951881e8e1bf85a5dc8a30691afdcc"
+    },
+    {
+      "path": "tl/japanese/audio/videos/ep6.webm",
+      "kind": "video_delta",
+      "payload": "video_deltas/06.kvd",
+      "payload_sha256": "444f7106e1ed48b70cf53e45e822a7f9b9d2abf6c835518bf1afaad737bfa7ff",
+      "base_member": "tl/japanese/audio/videos/ep6.webm",
+      "base_sha256": "a33a9294867c2b1b92ba3de0fb825e17b671231cd309f7b5d0e6460a45a41e24",
+      "target_size": 2110220,
+      "output_sha256": "30efa03b436b82f501366905f88d39e47b541f6ee95013bdcc927f6d1b0530ec"
+    },
+    {
+      "path": "tl/japanese/audio/videos/ep7.webm",
+      "kind": "video_delta",
+      "payload": "video_deltas/07.kvd",
+      "payload_sha256": "83455cdb58b153f75fb05adcdb4b621af3f0adda34aedf700d8d5a36aec4aca5",
+      "base_member": "tl/japanese/audio/videos/ep7.webm",
+      "base_sha256": "e773ae767e9f2e4391b30ba05235e1a1f639bb4a54c1673dd698950a0244b815",
+      "target_size": 2104456,
+      "output_sha256": "88c9c44171476779ba95e558377c83c29924c2bc599826a446304267c40f8945"
+    },
+    {
+      "path": "tl/japanese/audio/videos/ep8.webm",
+      "kind": "video_delta",
+      "payload": "video_deltas/08.kvd",
+      "payload_sha256": "aeacde96486f456cedd1c1ccb8358ceb95c0a2d3a586fe243530a4098a85407a",
+      "base_member": "tl/japanese/audio/videos/ep8.webm",
+      "base_sha256": "52b7fccd39818f864ffa193f2ae40e9967a139901f2bd34372e9e21b9563da00",
+      "target_size": 2121249,
+      "output_sha256": "2ed9ff39a81b9fee79e3690b1fa81edeaf41ab77f8c6829fa8ad67f3d099053b"
+    },
+    {
+      "path": "tl/japanese/audio/videos/ep9.webm",
+      "kind": "video_delta",
+      "payload": "video_deltas/09.kvd",
+      "payload_sha256": "4f41486530398b7d39f8cf07437ab0e6489738dfd67b7908db11565caf5e794a",
+      "base_member": "tl/japanese/audio/videos/ep9.webm",
+      "base_sha256": "e8f4aec97110f3794c8d3540bf47db5d189994efcdb3a1d922948efb7f536141",
+      "target_size": 2076886,
+      "output_sha256": "e5acd6228b25941175ae1d535d3c4dfd9e41c5bf15c4ced2c63be9dc3b09d152"
+    },
+    {
+      "path": "tl/japanese/choice_alerts.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/choice_alerts.rpy",
+      "payload_sha256": "9727fd7a72bc8edb27aaa2f06e7b63949c092933b60115ced13dcb1af720996d",
+      "output_sha256": "9727fd7a72bc8edb27aaa2f06e7b63949c092933b60115ced13dcb1af720996d"
+    },
+    {
+      "path": "tl/japanese/choice_alerts.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/choice_alerts.rpyc",
+      "payload_sha256": "8c72a9862ead0fa7b3d414868f813a0b36ecd9164649fa84abd36b871739c47b",
+      "output_sha256": "8c72a9862ead0fa7b3d414868f813a0b36ecd9164649fa84abd36b871739c47b"
+    },
+    {
+      "path": "tl/japanese/common.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/common.rpy",
+      "payload_sha256": "f106b5d43a072b45e50ef84886aa01c9078d9fa6569b16ef6547cd1f69bd71cb",
+      "output_sha256": "f106b5d43a072b45e50ef84886aa01c9078d9fa6569b16ef6547cd1f69bd71cb"
+    },
+    {
+      "path": "tl/japanese/common.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/common.rpyc",
+      "payload_sha256": "71d4ac2b63f19f29e6d4362679a6b8a1de1f18b89339c52345dd376548350bde",
+      "output_sha256": "71d4ac2b63f19f29e6d4362679a6b8a1de1f18b89339c52345dd376548350bde"
+    },
+    {
+      "path": "tl/japanese/gallery_ui.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/gallery_ui.rpy",
+      "payload_sha256": "64746f978063a81920f4f0701a48bbcda15721ed417fc1248f870bc757afe277",
+      "output_sha256": "64746f978063a81920f4f0701a48bbcda15721ed417fc1248f870bc757afe277"
+    },
+    {
+      "path": "tl/japanese/gallery_ui.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/gallery_ui.rpyc",
+      "payload_sha256": "479ca8aacbf952fecfa0482eef42235201d2d23a6cd326ef2b94c5efd8a2ed35",
+      "output_sha256": "479ca8aacbf952fecfa0482eef42235201d2d23a6cd326ef2b94c5efd8a2ed35"
+    },
+    {
+      "path": "tl/japanese/images/bgimage/bgdowntownstreet04.jpg",
+      "kind": "image_delta",
+      "payload": "image_deltas/0010.kpd",
+      "payload_sha256": "3da02d5dd440e1b6edd7d06d73e428b8c4bf5dedb47c8222c8f8bb63293df6c6",
+      "base_member": "images/bgimage/bgdowntownstreet04.jpg",
+      "base_sha256": "47cc05e1003e11ce9dd6dc7ab2b444d2669617313f798da9853a1edd8ad3ba4b",
+      "base_canonical_sha256": "9ac76e9b2383fa3cf74f19a96906a36162307d92f5e5dce16c10c04c3a9eae99",
+      "target_canonical_size": 8308787,
+      "target_canonical_sha256": "3d077e577ac19789f1a35b6d06e2640e22dcd8f575a5ecbcd923691045d6e8ee",
+      "output_sha256": "93ecf3a59b4924c5370b9640ba7dee0b57f9996f92a3239c2f07012c48efb349",
+      "delta_bytes": 46041
+    },
+    {
+      "path": "tl/japanese/images/bgimage/bgdowntownstreet06.jpg",
+      "kind": "image_delta",
+      "payload": "image_deltas/0011.kpd",
+      "payload_sha256": "0cdbdbfd2e48f04a6bacee6cd4513a39f41dcc0405bfc94f193ce60968d66bba",
+      "base_member": "images/bgimage/bgdowntownstreet06.jpg",
+      "base_sha256": "cd8e5aa73d608f8abaa1b4bea262965c32bb629571a3e2df06d8502481ec7159",
+      "base_canonical_sha256": "c665f77a96bfd653ea41682f8a8263502ba54f3ea6951d2ff529481dc79d9207",
+      "target_canonical_size": 8308787,
+      "target_canonical_sha256": "7b40eabf34e9b300fa2628bed740b824dcdb90de84d70bc2011bc5b43e30b20c",
+      "output_sha256": "001087e854d6d100db58adebe9c6619d34fd3a4880d8222d7c92e2a1a5e21f7c",
+      "delta_bytes": 43898
+    },
+    {
+      "path": "tl/japanese/images/bgimage/bgschoolgate01.jpg",
+      "kind": "image_delta",
+      "payload": "image_deltas/0012.kpd",
+      "payload_sha256": "494248c49d9feae5f14d9787677e393ac23e3850ffd9b213829cb8c3dd3e1987",
+      "base_member": "images/bgimage/bgschoolgate01.jpg",
+      "base_sha256": "a48758facdb89beb9382d38e7af7ba26b43c6ab410f073e0565e3344c614c86b",
+      "base_canonical_sha256": "c46c445f2b963a61140371693e830bc2dedbb939896e28628b14eac163def957",
+      "target_canonical_size": 8308787,
+      "target_canonical_sha256": "e6f404fa2c3d31d63832381d697f70e78deba6ed3e77404ad8f81c8e3f144e8a",
+      "output_sha256": "7b3a62ff0d44aeb9e3f429ddb66186ebb21fdd5d53524f04252b09155d95fdf1",
+      "delta_bytes": 158306
+    },
+    {
+      "path": "tl/japanese/images/bgimage/bgschoolgate02.jpg",
+      "kind": "image_delta",
+      "payload": "image_deltas/0013.kpd",
+      "payload_sha256": "ba8168c5c5a61090a72429a8785113f08eefed92a370186aa43a72aa0658c07b",
+      "base_member": "images/bgimage/bgschoolgate02.jpg",
+      "base_sha256": "f875fab52021578b5c7060d918516d4c0ee13d49be6feb8c8e6f4992d06ac7ad",
+      "base_canonical_sha256": "2cca35c003ad0b96e8788bb8f04268c9780b8ec7fb61c50dc3aab4637a3e0957",
+      "target_canonical_size": 8308787,
+      "target_canonical_sha256": "9e730f07853f13965a5b7fb62ba1e2e190cd455d4eb34ad90695dd63bfc427be",
+      "output_sha256": "508eea454578dd7fad699676a1b0a1c299106863c3ec76b5e2de11525eb85c7b",
+      "delta_bytes": 148438
+    },
+    {
+      "path": "tl/japanese/images/bgimage/bgschoolgate03.jpg",
+      "kind": "image_delta",
+      "payload": "image_deltas/0014.kpd",
+      "payload_sha256": "9fff62f334f7a799617d041c1df92d50530d8fda548219700be2e9df23d2b57c",
+      "base_member": "images/bgimage/bgschoolgate03.jpg",
+      "base_sha256": "7c9b8cee3392bd1a504df8cf44e5883c09fe5992c45020e4026008f8b56f05a6",
+      "base_canonical_sha256": "bf8f101a2da08381136d8635ebe448bde3c07e764663723e79f712d3130b6a97",
+      "target_canonical_size": 8308787,
+      "target_canonical_sha256": "2c5b050c11f2c694ec0d9380af635141223f658a683068e033d86cdd4bce640f",
+      "output_sha256": "fdca496f8bd96d995db1eccaf8d049a602ba12766630c17b6279e07474efe067",
+      "delta_bytes": 118025
+    },
+    {
+      "path": "tl/japanese/images/bgimage/bgstationconcourse01.jpg",
+      "kind": "image_delta",
+      "payload": "image_deltas/0015.kpd",
+      "payload_sha256": "06052334d7acc8bc7e0c24e23cb63169103324721d44496bd1ad9dd00eb8d092",
+      "base_member": "images/bgimage/bgstationconcourse01.jpg",
+      "base_sha256": "53e2627e9935294067ad0cd78092b0b3fe6f8ad91e76e6b396b4affe9015ba08",
+      "base_canonical_sha256": "346dac92a67fe83bf017e6ad096f9212b600088ecfd30f7afba7cad426dbb44b",
+      "target_canonical_size": 8308787,
+      "target_canonical_sha256": "ad33ccbdb09dc2febc7f61d399efdb7883004a88abd6855d8bc5d232b1373e43",
+      "output_sha256": "76a2cdb41734bf5dc3f8a3db1ff6a4aac5f441610e0a25b02e243c3c20bf5a18",
+      "delta_bytes": 199037
+    },
+    {
+      "path": "tl/japanese/images/bgimage/bgwoodbf01.jpg",
+      "kind": "image_delta",
+      "payload": "image_deltas/0016.kpd",
+      "payload_sha256": "298d0a17c8e11f75c9c01a97a1abffa7e32b742cda8a114c177864dc254a03d8",
+      "base_member": "images/bgimage/bgwoodbf01.jpg",
+      "base_sha256": "100ca8f227265273f25092975a040ca0eef5680275c5ba4c097ce08aeb7bc7f1",
+      "base_canonical_sha256": "987e1e7e42a8751fc70add35db7d3f18deace99b4719eb5e2cc47d2f0504660c",
+      "target_canonical_size": 29963662,
+      "target_canonical_sha256": "12c9234541cc1c53ce2bb176dd9afd7f0e066292e35b9d47744a1e27078f77c8",
+      "output_sha256": "e0dd87adffa3a1c3ffab5c2120e158569b1df40ee3b725e1dd66635a243155c1",
+      "delta_bytes": 268236
+    },
+    {
+      "path": "tl/japanese/images/bgimage/bgwoodbf02.jpg",
+      "kind": "image_delta",
+      "payload": "image_deltas/0017.kpd",
+      "payload_sha256": "7249e00271d455ee4539b6834441b26ce54164ab8a048c072d461a4c1fa315d3",
+      "base_member": "images/bgimage/bgwoodbf02.jpg",
+      "base_sha256": "4a7d4e4de32caab0a8f83a84d4cbf0f73b30c40af82daabeaea1459b0089ae45",
+      "base_canonical_sha256": "596484a1ba82cec703507e22178b8868b6ba9a9bf38ee0411c80a3e0c3d61630",
+      "target_canonical_size": 29963662,
+      "target_canonical_sha256": "3ad730ab1adfbfbd71ff89a638232460b66cf038c6f1491e0ba6eac83bdb7d40",
+      "output_sha256": "8e9da80cd8944f330233092fc7bec391f0b57ddee03904e185ce3e3fa72931d4",
+      "delta_bytes": 279138
+    },
+    {
+      "path": "tl/japanese/images/bgimage/bgwoodbf03.jpg",
+      "kind": "image_delta",
+      "payload": "image_deltas/0018.kpd",
+      "payload_sha256": "e971ae0e3d75008c7c4f8ccddc1b3852ae50957e7febc57eb1b7a12a21d6d6ed",
+      "base_member": "images/bgimage/bgwoodbf03.jpg",
+      "base_sha256": "2daba578be616516316ad1c68b505d40a22d44a181701b2dbb6761234affddb6",
+      "base_canonical_sha256": "1bf2b5798e4fc7c4861cd4988e0e71a2732fd27ec86cf330e5715b27de65e89b",
+      "target_canonical_size": 29963662,
+      "target_canonical_sha256": "b7529eda3dd24bb88f3d6258dd71e00f4dd669c814cf0ed14a792216710f3fe6",
+      "output_sha256": "8dbc9310c4d22537a8280cbe6acdc85b3d0f9263b7c851c4223572e57640b301",
+      "delta_bytes": 203154
+    },
+    {
+      "path": "tl/japanese/images/cg.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/images/cg.rpy",
+      "payload_sha256": "e558e5f0625209e3e19fa22208f5a5c36df53f85f6980c385751db56ba486e44",
+      "output_sha256": "e558e5f0625209e3e19fa22208f5a5c36df53f85f6980c385751db56ba486e44"
+    },
+    {
+      "path": "tl/japanese/images/cg.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/images/cg.rpyc",
+      "payload_sha256": "9dedf50be4fc333a725f6a32cf9559952b10e52e0273d9813ed3ff3bb17e9b36",
+      "output_sha256": "9dedf50be4fc333a725f6a32cf9559952b10e52e0273d9813ed3ff3bb17e9b36"
+    },
+    {
+      "path": "tl/japanese/images/perform/CG120/CG120_shout_ba.png",
+      "kind": "image_delta",
+      "payload": "image_deltas/0019.kpd",
+      "payload_sha256": "18fe239e349dcb5f9b906494787bc15c27918611999fa89fdc9edc71dd817f33",
+      "base_member": "images/perform/CG120/CG120_shout_ba.png",
+      "base_sha256": "6aa6c4ee31b4ab5f4ba075410b414f7fa6fe72587bc0f2cb041d6068a5573c1c",
+      "base_canonical_sha256": "189d665c16a825ec0e6843ab88e5c8bbd476cc1852931a37c7bb39c4f97b3589",
+      "target_canonical_size": 3611258,
+      "target_canonical_sha256": "12aad6071680d8ca577c4b0a12c0d45e8ac7e951faad6ff07badb5026eff3359",
+      "output_sha256": "f1f74de2f88b1abf6df690fbf086e529cdaa0a7c8508a2ccf10507a74cd331de",
+      "delta_bytes": 296348
+    },
+    {
+      "path": "tl/japanese/images/perform/CG170/title/subtitle-ja.png",
+      "kind": "image_delta",
+      "payload": "image_deltas/0020.kpd",
+      "payload_sha256": "89dba827385faf43ba70d74525b9f7af28a8b97bf697be052fa2ff0818265380",
+      "base_member": "images/perform/CG170/title/subtitle-ja.png",
+      "base_sha256": "00ce2dabcfcc255873846c3d68c52f2aacbdad8c5b76f6401a79273cced22176",
+      "base_canonical_sha256": "1d1b2b23fafb1afbb71f2fb18d048793ae5742e782b0f9b1acda0ccf8f8075ed",
+      "target_canonical_size": 8308787,
+      "target_canonical_sha256": "d17709b1633135e61aa62867bbec716a5d07ae01bc508e16d05d1f4c7a214dd8",
+      "output_sha256": "58477983060222f1726f2d7f8abadd26fce57e9cc63ac196bcca1b1a573c9d21",
+      "delta_bytes": 40864
+    },
+    {
+      "path": "tl/japanese/images/perform/CG170/title/title-hanzi.png",
+      "kind": "image_delta",
+      "payload": "image_deltas/0021.kpd",
+      "payload_sha256": "e15b699e4e5682d8987178c47567707f31b001ebbe8a540b1466c88633762f2f",
+      "base_member": "images/perform/CG170/title/title-hanzi.png",
+      "base_sha256": "654dcf4da5a8106bdcb0dd64a30e25b66e0bfd59abbed5161dcd01812957da8d",
+      "base_canonical_sha256": "7bb4876f261e4b1133bda26c2f3096beb276ddd5806a98762f49cbd21278bcda",
+      "target_canonical_size": 8308787,
+      "target_canonical_sha256": "85e17b0f65e1d3bff7947dbdd653c6a5aa6f582cbe80b16f72eaeb3ffda89470",
+      "output_sha256": "19fe033db586ba999302f060c2a9244c6d173965f8e35ea872c8ba25aaec6e3b",
+      "delta_bytes": 293788
+    },
+    {
+      "path": "tl/japanese/images/perform/choose/choose_broken_hover.png",
+      "kind": "image_delta",
+      "payload": "image_deltas/0022.kpd",
+      "payload_sha256": "3ec55960a98258113c4c442e39c4195c3e2e91947517442fd25078ad854bae05",
+      "base_member": "tl/japanese/images/perform/choose/choose_broken_hover.png",
+      "base_sha256": "8c936f1f58f29ff0af4f5bfaaca60369402009bf727a90d78283da20b31285c7",
+      "base_canonical_sha256": "8820cabf9fe2ee6171f043ec2fafab4e8d1add0deed15c75e8ae2f8d8d7826fb",
+      "target_canonical_size": 366064,
+      "target_canonical_sha256": "b7a101110f107e0bb9854ed361241064b8e43fddfb73b7f8fd84b0212fa3c489",
+      "output_sha256": "c40084c72d2614964bd7f55b55fb937cfabfb652bf4b172fb55229c9bb020d69",
+      "delta_bytes": 215094
+    },
+    {
+      "path": "tl/japanese/images/perform/choose/choose_broken_idle.png",
+      "kind": "image_delta",
+      "payload": "image_deltas/0023.kpd",
+      "payload_sha256": "7a54b1a00d3eaf1ec7a15b4ec4c6b818473f242e44a95e9eb2e408446b56319c",
+      "base_member": "tl/japanese/images/perform/choose/choose_broken_idle.png",
+      "base_sha256": "2f72de6a65e8b198c6198c45541c31d7e899baba7635c82d363b1169ea4e5b0e",
+      "base_canonical_sha256": "302bb596f8e9c1272cab773819e215da9fe4fb9a3c8f677a739a1e8a5e678499",
+      "target_canonical_size": 366064,
+      "target_canonical_sha256": "a9c53bb7e4e1e38a70363060520850a0e942d2b5421bf46510d684611e6c7c89",
+      "output_sha256": "7cb958acd461499900bedbf79dffb7be9eb8e0c993784ffc087a5cae4b70e248",
+      "delta_bytes": 158152
+    },
+    {
+      "path": "tl/japanese/images/perform/choose/choose_end_hover.png",
+      "kind": "image_delta",
+      "payload": "image_deltas/0024.kpd",
+      "payload_sha256": "48998374fff5e3899af7279f11b1b99d66a9bb31d885cf2cbfb71fb8ad1f1250",
+      "base_member": "tl/japanese/images/perform/choose/choose_end_hover.png",
+      "base_sha256": "ee9c8cc62c30e26570279e605ce5cc1eeb109ce6f44a55763d51984960153b33",
+      "base_canonical_sha256": "bfc5f3dec2059f278e90cee477c24ef1d406234695c5be930492e84274d7d322",
+      "target_canonical_size": 288573,
+      "target_canonical_sha256": "1aa58897b25b0db4cfcc3edee65fb4f190ec227d40788c320a8ba94c859d185f",
+      "output_sha256": "265af417ef86c528bb15d5c38a3551acbfb6cd090498c4deea7f5f3806260507",
+      "delta_bytes": 163316
+    },
+    {
+      "path": "tl/japanese/images/perform/choose/choose_end_idle.png",
+      "kind": "image_delta",
+      "payload": "image_deltas/0025.kpd",
+      "payload_sha256": "ea6c472b23fd1ed5740cc7563c13242a2384150c12e586fc2d766aca9f08fee6",
+      "base_member": "tl/japanese/images/perform/choose/choose_end_idle.png",
+      "base_sha256": "d046814a9a816321e1e478122b24f690daaf029418a8a2eb4a9da9e597ca294f",
+      "base_canonical_sha256": "2c69df7dd373dbf3c8b6ea2fd3387afbbed7c7f93709261101aae448fbfdadd2",
+      "target_canonical_size": 288573,
+      "target_canonical_sha256": "ee9c1d6f276b3b156d6f096d28dbf420df5b806c52d42a2a855da1ca9b5498bc",
+      "output_sha256": "23a7514c903dc5bbe4261c6f9024328ce33a342b00e33fdc0f2a9635b275377e",
+      "delta_bytes": 137409
+    },
+    {
+      "path": "tl/japanese/images/perform/choose/choose_loop_hover.png",
+      "kind": "image_delta",
+      "payload": "image_deltas/0026.kpd",
+      "payload_sha256": "0fad7076fc59105adc4d1331973f540bdc6d6729fd4c2f276046d61d1907a8ed",
+      "base_member": "tl/japanese/images/perform/choose/choose_loop_hover.png",
+      "base_sha256": "49ae06c8b1754d59008c5c5426ce4013fdc3910f5dcf31c0a3bf7855940017f2",
+      "base_canonical_sha256": "300cda3073fdbcb9692ecc36c5d77af7528fb870b3d5e85191719fa0308095ad",
+      "target_canonical_size": 288573,
+      "target_canonical_sha256": "a4d66e9cdb148bcbc47035c9ecb587dc5d49a2e1fe1f4cf12067fb57f0c7f362",
+      "output_sha256": "bf31b2ca7035ea2bfa9c2e56d0a4617fa66bd2fdc3af5dd6c49589f984c8abb3",
+      "delta_bytes": 160290
+    },
+    {
+      "path": "tl/japanese/images/perform/choose/choose_loop_idle.png",
+      "kind": "image_delta",
+      "payload": "image_deltas/0027.kpd",
+      "payload_sha256": "9d035ddcc5c6157af2d7701b02fba73782c22b0af2db9b8768dc4ea300590264",
+      "base_member": "tl/japanese/images/perform/choose/choose_loop_idle.png",
+      "base_sha256": "9f4ac0860757d78fed0bc3966b7aeafbe6bc28844d0cacaa4a2b377209da5d0d",
+      "base_canonical_sha256": "d899484a8690fff0b84d2123b7ecb445468557229eafd8076d48f448f402a5cb",
+      "target_canonical_size": 288573,
+      "target_canonical_sha256": "c9451cff8520410ee90af262b2f0ea4b3f24efe5af9f7acad0ab1dd5e5d5a89d",
+      "output_sha256": "af9c31e17d6c69eca43ecfe5fc102c478b7f2c55d839ed2b6f7f47e119dcea08",
+      "delta_bytes": 122849
+    },
+    {
+      "path": "tl/japanese/images/perform/huhu_link.png",
+      "kind": "image_delta",
+      "payload": "image_deltas/0028.kpd",
+      "payload_sha256": "faefef721b774400050898fe3e7bdb933511a28dd877500de9d7cdbe6586e719",
+      "base_member": "images/perform/huhu_link.png",
+      "base_sha256": "3e4b0f419ac6e571d70d9c009f3da53558a44a7d52ba333c8681f178cbf54887",
+      "base_canonical_sha256": "0ea96ced5090b9b46f5561ee75b350b66d3c9d7f46abaf908d9a8f6cdac14144",
+      "target_canonical_size": 835345,
+      "target_canonical_sha256": "98c987503b3f4e81d93bb29d3e5824c7235b11353ac0cb92493dd0ed6bdb5859",
+      "output_sha256": "9998d4665052daff591dbbb3b8005bba38dc51fb9a309dbb721287840d9ad6c8",
+      "delta_bytes": 282524
+    },
+    {
+      "path": "tl/japanese/images/perform/news.png",
+      "kind": "image_delta",
+      "payload": "image_deltas/0029.kpd",
+      "payload_sha256": "d70921914d3cc74ad566b223b62147b1f1708503f0beb4a785ea1a24c01a7de8",
+      "base_member": "tl/japanese/images/perform/news.png",
+      "base_sha256": "3ee1b90c6cb46e3359d101ef332e7674a5624d934d236169315bccd2b2666289",
+      "base_canonical_sha256": "8d07d1256bea41a508205c12d060a5113dc88c75fa5dd81f91a1cdecde899a61",
+      "target_canonical_size": 4659731,
+      "target_canonical_sha256": "597339ba534864001cba96470437a4d8c4fa4b693dfec8ea03d1b33cf6640079",
+      "output_sha256": "cb7d382407987439b15542ff8f2dbbc42b71c7c0dc6887cebf4d1e343723066b",
+      "delta_bytes": 1001397
+    },
+    {
+      "path": "tl/japanese/images/perform/plotnull/plotnull.webm",
+      "kind": "video_delta",
+      "payload": "video_deltas/11.kvd",
+      "payload_sha256": "70b5bbec00691dae313da9ea6c87ca14d00723aa622c51fd5e562e627656bc6a",
+      "base_member": "tl/japanese/images/perform/plotnull/plotnull.webm",
+      "base_sha256": "86c2ce6344369b84522c05a707be20683df86c445d13a0aa932223c69c99c716",
+      "target_size": 10826655,
+      "output_sha256": "639cfe819579fd18200f6425ab46796d3a1e0ab7f69f5ac4b276bbddd68910ad"
+    },
+    {
+      "path": "tl/japanese/images/warning.png",
+      "kind": "image_delta",
+      "payload": "image_deltas/0030.kpd",
+      "payload_sha256": "9c7b5b6cdde218e5a2450736cd37b6767e842f1c2699a228154f59bfe562d470",
+      "base_member": "tl/japanese/images/warning.png",
+      "base_sha256": "f98233e55fbe4a3c7faae8efe34037c7b868eddaa86e1470a0f21457dd943da4",
+      "base_canonical_sha256": "afe7c0489c15d85e107409039b3489c8d7fd19d30c6b22b919213a3418030fac",
+      "target_canonical_size": 33232308,
+      "target_canonical_sha256": "c47f3ead346a739caacd09aeeec71c63cbaf30a9f41d50c356d5e05d9f91f7c5",
+      "output_sha256": "9c0d4a92187565b441c323b0c48b32bc04199bcb8483cef01f059c159aa87a38",
+      "delta_bytes": 6276652
+    },
+    {
+      "path": "tl/japanese/popup_messages.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/popup_messages.rpy",
+      "payload_sha256": "861d1de26fc54394dabc7f6466caece78c55534a5d23faaefbe9c3a774082ccf",
+      "output_sha256": "861d1de26fc54394dabc7f6466caece78c55534a5d23faaefbe9c3a774082ccf"
+    },
+    {
+      "path": "tl/japanese/popup_messages.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/popup_messages.rpyc",
+      "payload_sha256": "31bfa0d2351d6a9ddf37bb45c9cdcd776ce54716593a2529ee101cce749dbac8",
+      "output_sha256": "31bfa0d2351d6a9ddf37bb45c9cdcd776ce54716593a2529ee101cce749dbac8"
+    },
+    {
+      "path": "tl/japanese/runtime_caption_coverage.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/runtime_caption_coverage.rpy",
+      "payload_sha256": "488fb3ebafb3e72341d8f5ae531d5e7b04eee8816ac6b5222d7e2453e0998cbd",
+      "output_sha256": "488fb3ebafb3e72341d8f5ae531d5e7b04eee8816ac6b5222d7e2453e0998cbd"
+    },
+    {
+      "path": "tl/japanese/runtime_caption_coverage.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/runtime_caption_coverage.rpyc",
+      "payload_sha256": "54781ee5894f1f12ccd9c14590085d32add30c2af76a52ee40231345b7f6df87",
+      "output_sha256": "54781ee5894f1f12ccd9c14590085d32add30c2af76a52ee40231345b7f6df87"
+    },
+    {
+      "path": "tl/japanese/runtime_coverage.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/runtime_coverage.rpy",
+      "payload_sha256": "77fd79498be88f0d3c633522c84d9ff11eda8b9b7229749542ea03a5e0a9b0ab",
+      "output_sha256": "77fd79498be88f0d3c633522c84d9ff11eda8b9b7229749542ea03a5e0a9b0ab"
+    },
+    {
+      "path": "tl/japanese/runtime_coverage.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/runtime_coverage.rpyc",
+      "payload_sha256": "f82cab1923c3c05afbd4e39dcb74602ba2a8d03c9a5a63f641f46a187efc2325",
+      "output_sha256": "f82cab1923c3c05afbd4e39dcb74602ba2a8d03c9a5a63f641f46a187efc2325"
+    },
+    {
+      "path": "tl/japanese/scripts/origin/controller_ui.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/origin/controller_ui.rpy",
+      "payload_sha256": "fa39544abdd0bf2dbf3aaa556cdeacd40da0c37f2cf02072e17ec68a4a8073f9",
+      "output_sha256": "fa39544abdd0bf2dbf3aaa556cdeacd40da0c37f2cf02072e17ec68a4a8073f9"
+    },
+    {
+      "path": "tl/japanese/scripts/origin/controller_ui.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/origin/controller_ui.rpyc",
+      "payload_sha256": "3158cf67af5d8780f60bfa094609dfbd1a7757d936be0d00ccf5b753efaef193",
+      "output_sha256": "3158cf67af5d8780f60bfa094609dfbd1a7757d936be0d00ccf5b753efaef193"
+    },
+    {
+      "path": "tl/japanese/scripts/origin/staging/cg180_post_manga.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/origin/staging/cg180_post_manga.rpy",
+      "payload_sha256": "427feb9c26d91825439b97054e4a719303fc204bd21c61d7f162c085b33adf47",
+      "output_sha256": "427feb9c26d91825439b97054e4a719303fc204bd21c61d7f162c085b33adf47"
+    },
+    {
+      "path": "tl/japanese/scripts/origin/staging/cg180_post_manga.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/origin/staging/cg180_post_manga.rpyc",
+      "payload_sha256": "0738143c985386f8912130c9adeb200e23a7235a6e722902989a728dc720b886",
+      "output_sha256": "0738143c985386f8912130c9adeb200e23a7235a6e722902989a728dc720b886"
+    },
+    {
+      "path": "tl/japanese/scripts/origin/staging/choose_options.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/origin/staging/choose_options.rpy",
+      "payload_sha256": "9cb483e265513a313e32b600d943904eed4c2d53c0e5cc26fe4d69c25335a122",
+      "output_sha256": "9cb483e265513a313e32b600d943904eed4c2d53c0e5cc26fe4d69c25335a122"
+    },
+    {
+      "path": "tl/japanese/scripts/origin/staging/choose_options.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/origin/staging/choose_options.rpyc",
+      "payload_sha256": "b1dc9ef0ce43c4a68fbf6eb1b62e0c6874689efff128513cb38eb7303db4594c",
+      "output_sha256": "b1dc9ef0ce43c4a68fbf6eb1b62e0c6874689efff128513cb38eb7303db4594c"
+    },
+    {
+      "path": "tl/japanese/scripts/screens.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/screens.rpy",
+      "payload_sha256": "4e1de9071ac2a3cdcbe73ee1d3aac7956236c0efad580b0a8e540423271aa828",
+      "output_sha256": "4e1de9071ac2a3cdcbe73ee1d3aac7956236c0efad580b0a8e540423271aa828"
+    },
+    {
+      "path": "tl/japanese/scripts/screens.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/screens.rpyc",
+      "payload_sha256": "d13d517f4627456ed0afada62d24fb03bdbe79ce2d295749f36b80296f790aa7",
+      "output_sha256": "d13d517f4627456ed0afada62d24fb03bdbe79ce2d295749f36b80296f790aa7"
+    },
+    {
+      "path": "tl/japanese/scripts/screens/config/audio/screen.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/screens/config/audio/screen.rpy",
+      "payload_sha256": "c4c65a32bbcd4710dec2b87665011bbb74f8064f812489827436a822af22db8b",
+      "output_sha256": "c4c65a32bbcd4710dec2b87665011bbb74f8064f812489827436a822af22db8b"
+    },
+    {
+      "path": "tl/japanese/scripts/screens/config/audio/screen.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/screens/config/audio/screen.rpyc",
+      "payload_sha256": "27da3f765305824c9c5b80c53c2b9b7469d7bb975546ad7584a824725c74bde8",
+      "output_sha256": "27da3f765305824c9c5b80c53c2b9b7469d7bb975546ad7584a824725c74bde8"
+    },
+    {
+      "path": "tl/japanese/scripts/screens/config/config.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/screens/config/config.rpy",
+      "payload_sha256": "01fa2c15a08bb13635de7ba00f2f0da9b0aac51aeaac9df51f0d1aee6b8e3e6c",
+      "output_sha256": "01fa2c15a08bb13635de7ba00f2f0da9b0aac51aeaac9df51f0d1aee6b8e3e6c"
+    },
+    {
+      "path": "tl/japanese/scripts/screens/config/config.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/screens/config/config.rpyc",
+      "payload_sha256": "7d8366d7902c893362f65b2b02f6b9147e935f0a243c79bce48183c64c751977",
+      "output_sha256": "7d8366d7902c893362f65b2b02f6b9147e935f0a243c79bce48183c64c751977"
+    },
+    {
+      "path": "tl/japanese/scripts/screens/config/general/screen.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/screens/config/general/screen.rpy",
+      "payload_sha256": "c49f7b5b7481de3eee206787cad0c05593f340e206eca001ebca4ed12607fb13",
+      "output_sha256": "c49f7b5b7481de3eee206787cad0c05593f340e206eca001ebca4ed12607fb13"
+    },
+    {
+      "path": "tl/japanese/scripts/screens/config/general/screen.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/screens/config/general/screen.rpyc",
+      "payload_sha256": "2f4882ebe3105b3f384a2e41a8c625dea1eaa21e2c72b1c56f423a6e16d7b06b",
+      "output_sha256": "2f4882ebe3105b3f384a2e41a8c625dea1eaa21e2c72b1c56f423a6e16d7b06b"
+    },
+    {
+      "path": "tl/japanese/scripts/screens/config/shared/screen.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/screens/config/shared/screen.rpy",
+      "payload_sha256": "48d7a3ad92df10c9144507ae6022fd7bc5211294eac2f012cbbfb4567ff142d3",
+      "output_sha256": "48d7a3ad92df10c9144507ae6022fd7bc5211294eac2f012cbbfb4567ff142d3"
+    },
+    {
+      "path": "tl/japanese/scripts/screens/config/shared/screen.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/screens/config/shared/screen.rpyc",
+      "payload_sha256": "34048ee5c4ed47113c152723a2c0ce189b6aa42ba6d8142b9e143b33dda4f70c",
+      "output_sha256": "34048ee5c4ed47113c152723a2c0ce189b6aa42ba6d8142b9e143b33dda4f70c"
+    },
+    {
+      "path": "tl/japanese/scripts/screens/confirm.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/screens/confirm.rpy",
+      "payload_sha256": "5ebeca92969f2862194bdc838400087b9c029c1f4b519723fbf9fa1dccb1e6b4",
+      "output_sha256": "5ebeca92969f2862194bdc838400087b9c029c1f4b519723fbf9fa1dccb1e6b4"
+    },
+    {
+      "path": "tl/japanese/scripts/screens/confirm.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/screens/confirm.rpyc",
+      "payload_sha256": "708707502840e97bf1db19dab506ad7b428113492bc83753c088498ac040c897",
+      "output_sha256": "708707502840e97bf1db19dab506ad7b428113492bc83753c088498ac040c897"
+    },
+    {
+      "path": "tl/japanese/scripts/screens/creator_game_menu.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/screens/creator_game_menu.rpy",
+      "payload_sha256": "4fa86aca45f62e570f8715787f2a29923aff1802ffc153ba406ce7c51e2a795f",
+      "output_sha256": "4fa86aca45f62e570f8715787f2a29923aff1802ffc153ba406ce7c51e2a795f"
+    },
+    {
+      "path": "tl/japanese/scripts/screens/creator_game_menu.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/screens/creator_game_menu.rpyc",
+      "payload_sha256": "d8eaa593d187ee6f7c7eb93e1817cd82696d20bca746e5edbdc6331e7acf869b",
+      "output_sha256": "d8eaa593d187ee6f7c7eb93e1817cd82696d20bca746e5edbdc6331e7acf869b"
+    },
+    {
+      "path": "tl/japanese/scripts/screens/dictionary.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/screens/dictionary.rpy",
+      "payload_sha256": "1280936da19a734812f583ff932ea9667bd128053148c5df6d1835c8ab1148a0",
+      "output_sha256": "1280936da19a734812f583ff932ea9667bd128053148c5df6d1835c8ab1148a0"
+    },
+    {
+      "path": "tl/japanese/scripts/screens/dictionary.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/screens/dictionary.rpyc",
+      "payload_sha256": "3b82e6ea7732cf620ebc489d91e8ac3b1c2c0c527ab5578ebcf321c6dea5d710",
+      "output_sha256": "3b82e6ea7732cf620ebc489d91e8ac3b1c2c0c527ab5578ebcf321c6dea5d710"
+    },
+    {
+      "path": "tl/japanese/scripts/screens/history.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/screens/history.rpy",
+      "payload_sha256": "82cca92e040505b55f1ac727cc925b1f258e711b6c3576118b61d37738f4dd46",
+      "output_sha256": "82cca92e040505b55f1ac727cc925b1f258e711b6c3576118b61d37738f4dd46"
+    },
+    {
+      "path": "tl/japanese/scripts/screens/history.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/screens/history.rpyc",
+      "payload_sha256": "e11e5fb1fc6a0f8df7e89e93e00ea16848cd6099ad98aaa488b1aca43d9f4e12",
+      "output_sha256": "e11e5fb1fc6a0f8df7e89e93e00ea16848cd6099ad98aaa488b1aca43d9f4e12"
+    },
+    {
+      "path": "tl/japanese/scripts/screens/save.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/screens/save.rpy",
+      "payload_sha256": "96b3d387eb57d53d5b62fc6dde978b0082d9f5f8ce70f0305303156eb9f6fc35",
+      "output_sha256": "96b3d387eb57d53d5b62fc6dde978b0082d9f5f8ce70f0305303156eb9f6fc35"
+    },
+    {
+      "path": "tl/japanese/scripts/screens/save.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/screens/save.rpyc",
+      "payload_sha256": "83e573909bb859a0f83f72f66a66e0e696395cff129258cdf044285a6ae34675",
+      "output_sha256": "83e573909bb859a0f83f72f66a66e0e696395cff129258cdf044285a6ae34675"
+    },
+    {
+      "path": "tl/japanese/scripts/screens/thanks_list/screen.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/screens/thanks_list/screen.rpy",
+      "payload_sha256": "63fdc41999b827b61e029aa65f8de4333154b8dd660b33ce1b735277a49e8b5a",
+      "output_sha256": "63fdc41999b827b61e029aa65f8de4333154b8dd660b33ce1b735277a49e8b5a"
+    },
+    {
+      "path": "tl/japanese/scripts/screens/thanks_list/screen.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/screens/thanks_list/screen.rpyc",
+      "payload_sha256": "a1678e71ec2f9a4b8c8989c4260159d87311445b536925f042d01f12de6ea509",
+      "output_sha256": "a1678e71ec2f9a4b8c8989c4260159d87311445b536925f042d01f12de6ea509"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot 0 extra.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot 0 extra.rpy",
+      "payload_sha256": "596b69959f9b0511705fa02a7a1fbdecefd2483a0dda26ab44063b225adbe795",
+      "output_sha256": "596b69959f9b0511705fa02a7a1fbdecefd2483a0dda26ab44063b225adbe795"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot 0 extra.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot 0 extra.rpyc",
+      "payload_sha256": "18712a7ac46c9a322604a91cd14762b70950791d480652631b4913707e1dfbae",
+      "output_sha256": "18712a7ac46c9a322604a91cd14762b70950791d480652631b4913707e1dfbae"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot 0.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot 0.rpy",
+      "payload_sha256": "abc4cb229574410e59ef5f1f82c71738e5b239d1163ffa701a5d2ce1176e3f97",
+      "output_sha256": "abc4cb229574410e59ef5f1f82c71738e5b239d1163ffa701a5d2ce1176e3f97"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot 0.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot 0.rpyc",
+      "payload_sha256": "bbe9fd05208092801e51e145183f338d189c2fec915894f9d031b35c2a7e1c3b",
+      "output_sha256": "bbe9fd05208092801e51e145183f338d189c2fec915894f9d031b35c2a7e1c3b"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot 1 extra.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot 1 extra.rpy",
+      "payload_sha256": "e07b7da7dad26ebd75ce4dd99aed0dd451c8d7ccd549b2592c9db952588a0584",
+      "output_sha256": "e07b7da7dad26ebd75ce4dd99aed0dd451c8d7ccd549b2592c9db952588a0584"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot 1 extra.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot 1 extra.rpyc",
+      "payload_sha256": "9289724fd80d0549446ff80cc056182e0f36703f727526cb5c32dc51c141a28e",
+      "output_sha256": "9289724fd80d0549446ff80cc056182e0f36703f727526cb5c32dc51c141a28e"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot 1.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot 1.rpy",
+      "payload_sha256": "36b7cb9c49eeeaf999cd0d86543fc4832a7ded9f2e23373cb786530f725a6b51",
+      "output_sha256": "36b7cb9c49eeeaf999cd0d86543fc4832a7ded9f2e23373cb786530f725a6b51"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot 1.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot 1.rpyc",
+      "payload_sha256": "2a2427b73118e63f489a32a8dda47b2f08262a905a9e95ffa854a75e01f8e6ba",
+      "output_sha256": "2a2427b73118e63f489a32a8dda47b2f08262a905a9e95ffa854a75e01f8e6ba"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot 10.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot 10.rpy",
+      "payload_sha256": "90bce9667cbd76161c5760b97eeeae389a28f86b583769091537f801b3816840",
+      "output_sha256": "90bce9667cbd76161c5760b97eeeae389a28f86b583769091537f801b3816840"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot 10.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot 10.rpyc",
+      "payload_sha256": "07924365a7cd00944632f0be5c9f46a8eb9b2e25ef5df33399b5c49dcdbfb81e",
+      "output_sha256": "07924365a7cd00944632f0be5c9f46a8eb9b2e25ef5df33399b5c49dcdbfb81e"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot 2 extra.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot 2 extra.rpy",
+      "payload_sha256": "7a663a3d18962ff21661d9406f2ac618ade7ff5b11bfd512201c1b0fb23848b9",
+      "output_sha256": "7a663a3d18962ff21661d9406f2ac618ade7ff5b11bfd512201c1b0fb23848b9"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot 2 extra.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot 2 extra.rpyc",
+      "payload_sha256": "5bfe3ea22ad3c7ece73512608937a8aff35afc88282a2cef40060349b5d353b2",
+      "output_sha256": "5bfe3ea22ad3c7ece73512608937a8aff35afc88282a2cef40060349b5d353b2"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot 2.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot 2.rpy",
+      "payload_sha256": "6d0ab9b65e543f55340fc6025bad396170d7873b40d4d56caac64c6701fce629",
+      "output_sha256": "6d0ab9b65e543f55340fc6025bad396170d7873b40d4d56caac64c6701fce629"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot 2.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot 2.rpyc",
+      "payload_sha256": "62fe7939f8e93976af41ba76661e2248d9a2d948162430d95bc4b4f1c6447d65",
+      "output_sha256": "62fe7939f8e93976af41ba76661e2248d9a2d948162430d95bc4b4f1c6447d65"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot 3 extra.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot 3 extra.rpy",
+      "payload_sha256": "9e8850e82cd6c9a83b4278b1ec5fbab67200b71cbcc6ca4d42cdeafea63a53ae",
+      "output_sha256": "9e8850e82cd6c9a83b4278b1ec5fbab67200b71cbcc6ca4d42cdeafea63a53ae"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot 3 extra.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot 3 extra.rpyc",
+      "payload_sha256": "7dc50cb9f3e3a799526f608063459be71bb298043d9f51f2ced1cbd6db62d9b8",
+      "output_sha256": "7dc50cb9f3e3a799526f608063459be71bb298043d9f51f2ced1cbd6db62d9b8"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot 3.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot 3.rpy",
+      "payload_sha256": "aa0bded0089d3f00dbe729729a2eb1c9a3d7679711989e3db9336e90897767fe",
+      "output_sha256": "aa0bded0089d3f00dbe729729a2eb1c9a3d7679711989e3db9336e90897767fe"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot 3.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot 3.rpyc",
+      "payload_sha256": "3d63fcb73d3b076be3d62dad295280e6669d80b835a5e1b40a44e0229eccd892",
+      "output_sha256": "3d63fcb73d3b076be3d62dad295280e6669d80b835a5e1b40a44e0229eccd892"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot 5.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot 5.rpy",
+      "payload_sha256": "5e27ea3da493646a9251c516fb20f497385c56020dda94c3010ae0db7a4faf83",
+      "output_sha256": "5e27ea3da493646a9251c516fb20f497385c56020dda94c3010ae0db7a4faf83"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot 5.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot 5.rpyc",
+      "payload_sha256": "b745022cbcf6ee319ab6e954f41293a99e4844a99e078776a78eb3e69d3cd357",
+      "output_sha256": "b745022cbcf6ee319ab6e954f41293a99e4844a99e078776a78eb3e69d3cd357"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot 6.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot 6.rpy",
+      "payload_sha256": "f4ec9d58ced3d3031660848ff95a3d626630d84d44f9254c78081ea436f13278",
+      "output_sha256": "f4ec9d58ced3d3031660848ff95a3d626630d84d44f9254c78081ea436f13278"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot 6.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot 6.rpyc",
+      "payload_sha256": "2fce14f70f6f9105111734ddf5b552cb6856de10b19d170c410b1163913a4d56",
+      "output_sha256": "2fce14f70f6f9105111734ddf5b552cb6856de10b19d170c410b1163913a4d56"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot 7.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot 7.rpy",
+      "payload_sha256": "fa9028809e9160e09b403c35bb31c54557478fd5e1b84d9089dc4015179c9656",
+      "output_sha256": "fa9028809e9160e09b403c35bb31c54557478fd5e1b84d9089dc4015179c9656"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot 7.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot 7.rpyc",
+      "payload_sha256": "f72730f39e7e0802ae3e8111a9d8c91b1e9383fad62e226761a7e90124c3b3eb",
+      "output_sha256": "f72730f39e7e0802ae3e8111a9d8c91b1e9383fad62e226761a7e90124c3b3eb"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot 8.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot 8.rpy",
+      "payload_sha256": "48ffb8a4086374a9061c753a7f57b1f312422c31458b685db9cc58bb51ca07a5",
+      "output_sha256": "48ffb8a4086374a9061c753a7f57b1f312422c31458b685db9cc58bb51ca07a5"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot 8.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot 8.rpyc",
+      "payload_sha256": "724a3f2d692289a779d964bbd1859a6f8a454bc4d0a828351e99ec0fb59fd2dc",
+      "output_sha256": "724a3f2d692289a779d964bbd1859a6f8a454bc4d0a828351e99ec0fb59fd2dc"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot 9.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot 9.rpy",
+      "payload_sha256": "d0c1ced722745830f7cab350709dc1b062342028c7173182a5a8249295af87b7",
+      "output_sha256": "d0c1ced722745830f7cab350709dc1b062342028c7173182a5a8249295af87b7"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot 9.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot 9.rpyc",
+      "payload_sha256": "1ea960a22cd462fa3475c5f6774af7f54d975b0d9065c50f87a26092f6563767",
+      "output_sha256": "1ea960a22cd462fa3475c5f6774af7f54d975b0d9065c50f87a26092f6563767"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot external.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot external.rpy",
+      "payload_sha256": "89cfb791a644d47a58389ae7116cb876422a9f03c58f641b7a95a486e048958b",
+      "output_sha256": "89cfb791a644d47a58389ae7116cb876422a9f03c58f641b7a95a486e048958b"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/Plot external.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/Plot external.rpyc",
+      "payload_sha256": "7ca8b61b21be1401d2179282e91ce6bec0e839e53c7d436781a1d0887736b8c8",
+      "output_sha256": "7ca8b61b21be1401d2179282e91ce6bec0e839e53c7d436781a1d0887736b8c8"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/nvl_runtime_strings.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/nvl_runtime_strings.rpy",
+      "payload_sha256": "e8acd64fead2de4da2fe91102e1b997fd77918a149bc86166bdf54f7dc98a11d",
+      "output_sha256": "e8acd64fead2de4da2fe91102e1b997fd77918a149bc86166bdf54f7dc98a11d"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/nvl_runtime_strings.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/nvl_runtime_strings.rpyc",
+      "payload_sha256": "173b61b851a2884129b7e34213165f2bc363d027a7c209f3574397973d71cbda",
+      "output_sha256": "173b61b851a2884129b7e34213165f2bc363d027a7c209f3574397973d71cbda"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/plot 4.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/plot 4.rpy",
+      "payload_sha256": "3c3f99d05b382aeffa1af2500ed8e3152b0b1c05e74aa7c18ef5aff5be1c9f21",
+      "output_sha256": "3c3f99d05b382aeffa1af2500ed8e3152b0b1c05e74aa7c18ef5aff5be1c9f21"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/plot 4.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/plot 4.rpyc",
+      "payload_sha256": "88ff15d1e164fc3ada6813a29e07d2c90ebdc89c7c58e45f14f44db167ca641f",
+      "output_sha256": "88ff15d1e164fc3ada6813a29e07d2c90ebdc89c7c58e45f14f44db167ca641f"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/plot10_epilogue_captions.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/plot10_epilogue_captions.rpy",
+      "payload_sha256": "c85e788e90132c7b054a4738cee5291b6e46c2f7fc04806fb467620ea5b338cc",
+      "output_sha256": "c85e788e90132c7b054a4738cee5291b6e46c2f7fc04806fb467620ea5b338cc"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/plot10_epilogue_captions.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/plot10_epilogue_captions.rpyc",
+      "payload_sha256": "569800bfa930e792e5c7cef7f3b421ce138953c843e95970e7a55f0750930a09",
+      "output_sha256": "569800bfa930e792e5c7cef7f3b421ce138953c843e95970e7a55f0750930a09"
+    },
+    {
+      "path": "zz_ko_confirmation.rpy",
+      "kind": "file",
+      "payload": "payload/zz_ko_confirmation.rpy",
+      "payload_sha256": "853ec668dd61ae4df6d2149394de88d564a156d0a66092c17c3f8b0fc3a686af",
+      "output_sha256": "853ec668dd61ae4df6d2149394de88d564a156d0a66092c17c3f8b0fc3a686af"
+    },
+    {
+      "path": "zz_ko_confirmation.rpyc",
+      "kind": "file",
+      "payload": "payload/zz_ko_confirmation.rpyc",
+      "payload_sha256": "9004f279222e4189ad8c6cb7e35cc571d3d9b5335b4725a08a592e0b64582a7f",
+      "output_sha256": "9004f279222e4189ad8c6cb7e35cc571d3d9b5335b4725a08a592e0b64582a7f"
+    },
+    {
+      "path": "zz_ko_image_effects.rpy",
+      "kind": "file",
+      "payload": "payload/zz_ko_image_effects.rpy",
+      "payload_sha256": "e13a043394e34f9fae9b6d946a00fdc57d417b12832a188176a526e774fb0b9c",
+      "output_sha256": "e13a043394e34f9fae9b6d946a00fdc57d417b12832a188176a526e774fb0b9c"
+    },
+    {
+      "path": "zz_ko_image_effects.rpyc",
+      "kind": "file",
+      "payload": "payload/zz_ko_image_effects.rpyc",
+      "payload_sha256": "6af283608efb027d548a8d43ec80961de011bff9e1fed855643480295732e512",
+      "output_sha256": "6af283608efb027d548a8d43ec80961de011bff9e1fed855643480295732e512"
+    },
+    {
+      "path": "zz_ko_main_menu.rpy",
+      "kind": "file",
+      "payload": "payload/zz_ko_main_menu.rpy",
+      "payload_sha256": "4f6412187f8834c316c26c253dee5def33a21e1dd010e1c8467d150b7d8d4190",
+      "output_sha256": "4f6412187f8834c316c26c253dee5def33a21e1dd010e1c8467d150b7d8d4190"
+    },
+    {
+      "path": "zz_ko_main_menu.rpyc",
+      "kind": "file",
+      "payload": "payload/zz_ko_main_menu.rpyc",
+      "payload_sha256": "35ceff62cb663c27b130069a76986868123f3acd78a17395c3c87310a0b1a04e",
+      "output_sha256": "35ceff62cb663c27b130069a76986868123f3acd78a17395c3c87310a0b1a04e"
+    },
+    {
+      "path": "zz_ko_option_screens.rpy",
+      "kind": "file",
+      "payload": "payload/zz_ko_option_screens.rpy",
+      "payload_sha256": "f61d4c3a91c43c5982f9cda9e7e2fdc20106cf9eaafa0ddf8d72101b2b689d7f",
+      "output_sha256": "f61d4c3a91c43c5982f9cda9e7e2fdc20106cf9eaafa0ddf8d72101b2b689d7f"
+    },
+    {
+      "path": "zz_ko_option_screens.rpyc",
+      "kind": "file",
+      "payload": "payload/zz_ko_option_screens.rpyc",
+      "payload_sha256": "30f2b6eaa00392e4e13d531c22f6a8ef03c930bbb2cb0a4d2cc069befd4bc40e",
+      "output_sha256": "30f2b6eaa00392e4e13d531c22f6a8ef03c930bbb2cb0a4d2cc069befd4bc40e"
+    },
+    {
+      "path": "zz_ko_release_profile.rpy",
+      "kind": "file",
+      "payload": "payload/zz_ko_release_profile.rpy",
+      "payload_sha256": "c20debd37334432e8095682aa65f7251c32bdd09d4f428cbbeabcb95d0dba482",
+      "output_sha256": "c20debd37334432e8095682aa65f7251c32bdd09d4f428cbbeabcb95d0dba482"
+    },
+    {
+      "path": "zz_ko_runtime.rpy",
+      "kind": "file",
+      "payload": "payload/zz_ko_runtime.rpy",
+      "payload_sha256": "381dfe165871178c1157a34529c84e50e683811a0a364d763acc096855ab0249",
+      "output_sha256": "381dfe165871178c1157a34529c84e50e683811a0a364d763acc096855ab0249"
+    },
+    {
+      "path": "zz_ko_runtime.rpyc",
+      "kind": "file",
+      "payload": "payload/zz_ko_runtime.rpyc",
+      "payload_sha256": "2ec9cc061b7c48cdf265c443f6c2b15df2c832f71bbae03c7256ccd87d372f51",
+      "output_sha256": "2ec9cc061b7c48cdf265c443f6c2b15df2c832f71bbae03c7256ccd87d372f51"
+    },
+    {
+      "path": "zz_ko_scenario_special.rpy",
+      "kind": "file",
+      "payload": "payload/zz_ko_scenario_special.rpy",
+      "payload_sha256": "323c4db9b15e9de45bf188618590b71a5f08e740ee2d96eb6b777c3bb2cf37e7",
+      "output_sha256": "323c4db9b15e9de45bf188618590b71a5f08e740ee2d96eb6b777c3bb2cf37e7"
+    },
+    {
+      "path": "zz_ko_scenario_special.rpyc",
+      "kind": "file",
+      "payload": "payload/zz_ko_scenario_special.rpyc",
+      "payload_sha256": "f9507bee712de528b6e125d73767a8d53056da2d0bd849ea43b7949dad9ac710",
+      "output_sha256": "f9507bee712de528b6e125d73767a8d53056da2d0bd849ea43b7949dad9ac710"
+    },
+    {
+      "path": "zz_ko_secondary_ui.rpy",
+      "kind": "file",
+      "payload": "payload/zz_ko_secondary_ui.rpy",
+      "payload_sha256": "41ece6a4ebc43e8430365f5fa639308a5f2cb12432744e1b16c1f745910997c1",
+      "output_sha256": "41ece6a4ebc43e8430365f5fa639308a5f2cb12432744e1b16c1f745910997c1"
+    },
+    {
+      "path": "zz_ko_secondary_ui.rpyc",
+      "kind": "file",
+      "payload": "payload/zz_ko_secondary_ui.rpyc",
+      "payload_sha256": "2404281dc54815b3acf0c378d346dbfd5f71bcb2f096f8a31177ea84d2a677e3",
+      "output_sha256": "2404281dc54815b3acf0c378d346dbfd5f71bcb2f096f8a31177ea84d2a677e3"
+    },
+    {
+      "path": "zz_ko_system_confirm.rpy",
+      "kind": "file",
+      "payload": "payload/zz_ko_system_confirm.rpy",
+      "payload_sha256": "1da4f1bd3e84a39f54da98e8c9ab91403b138461f51361fd938386beb4c04174",
+      "output_sha256": "1da4f1bd3e84a39f54da98e8c9ab91403b138461f51361fd938386beb4c04174"
+    },
+    {
+      "path": "zz_ko_system_confirm.rpyc",
+      "kind": "file",
+      "payload": "payload/zz_ko_system_confirm.rpyc",
+      "payload_sha256": "4e1eb0788b21ecbc52dfd7f8fbfbbea4b96bf718b832f47e1c616424738bd8cd",
+      "output_sha256": "4e1eb0788b21ecbc52dfd7f8fbfbbea4b96bf718b832f47e1c616424738bd8cd"
+    },
+    {
+      "path": "zz_ko_text_presentation.rpy",
+      "kind": "file",
+      "payload": "payload/zz_ko_text_presentation.rpy",
+      "payload_sha256": "b7386c3916becc4a4a46df0189f610dcc1d6e58cace5f21fab1756472285a532",
+      "output_sha256": "b7386c3916becc4a4a46df0189f610dcc1d6e58cace5f21fab1756472285a532"
+    },
+    {
+      "path": "zz_ko_text_presentation.rpyc",
+      "kind": "file",
+      "payload": "payload/zz_ko_text_presentation.rpyc",
+      "payload_sha256": "708493ec72ea2e049b9ba2f266b8467e7b9353784894e2226789296a7191e299",
+      "output_sha256": "708493ec72ea2e049b9ba2f266b8467e7b9353784894e2226789296a7191e299"
+    },
+    {
+      "path": "zz_ko_video_subtitles.rpy",
+      "kind": "file",
+      "payload": "payload/zz_ko_video_subtitles.rpy",
+      "payload_sha256": "ab12e9aead531d6d190f92a1030f21236bb1c7c32c402f6771d03cc37f8acb76",
+      "output_sha256": "ab12e9aead531d6d190f92a1030f21236bb1c7c32c402f6771d03cc37f8acb76"
+    },
+    {
+      "path": "zz_ko_video_subtitles.rpyc",
+      "kind": "file",
+      "payload": "payload/zz_ko_video_subtitles.rpyc",
+      "payload_sha256": "36a03ef0433103e0448a8a27300d596620d56c41ac7e4748f5340fb8505fa7de",
+      "output_sha256": "36a03ef0433103e0448a8a27300d596620d56c41ac7e4748f5340fb8505fa7de"
+    },
+    {
+      "path": "zz_ko_why_page.rpy",
+      "kind": "file",
+      "payload": "payload/zz_ko_why_page.rpy",
+      "payload_sha256": "3f59db62c3b3f7d7f165776dd0a42183edffcd71d5cbb03c7ad43f64eacd75e1",
+      "output_sha256": "3f59db62c3b3f7d7f165776dd0a42183edffcd71d5cbb03c7ad43f64eacd75e1"
+    },
+    {
+      "path": "zz_ko_why_page.rpyc",
+      "kind": "file",
+      "payload": "payload/zz_ko_why_page.rpyc",
+      "payload_sha256": "498807fff7578692e230d2da4ef0fc9806a2be06e7ab398a05e1468883f8316a",
+      "output_sha256": "498807fff7578692e230d2da4ef0fc9806a2be06e7ab398a05e1468883f8316a"
+    },
+    {
+      "path": "tl/japanese/speaker_names.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/speaker_names.rpy",
+      "payload_sha256": "b89920561a44a5d41a44f46603d2e5f50a16e7387a7743c0c6a8672910429684",
+      "output_sha256": "b89920561a44a5d41a44f46603d2e5f50a16e7387a7743c0c6a8672910429684"
+    },
+    {
+      "path": "tl/japanese/speaker_names.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/speaker_names.rpyc",
+      "payload_sha256": "dcd34e0cda644dfa1f2f1108517a3a0e42819f2d23e92ff58eae232fd938a6b6",
+      "output_sha256": "dcd34e0cda644dfa1f2f1108517a3a0e42819f2d23e92ff58eae232fd938a6b6"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/character_define.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/character_define.rpy",
+      "payload_sha256": "b30baeb0f3620f78ef432c804b1009a1ce686f70c8ba50fda92fdb113724ef57",
+      "output_sha256": "b30baeb0f3620f78ef432c804b1009a1ce686f70c8ba50fda92fdb113724ef57"
+    },
+    {
+      "path": "tl/japanese/scripts/stories/plot/character_define.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/stories/plot/character_define.rpyc",
+      "payload_sha256": "61fc461062ebbc155792bb764150e1aeec5c034837a1430928fece3eb2e8c351",
+      "output_sha256": "61fc461062ebbc155792bb764150e1aeec5c034837a1430928fece3eb2e8c351"
+    },
+    {
+      "path": "tl/japanese/ko_speaker_parts.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/ko_speaker_parts.rpy",
+      "payload_sha256": "4bdcf02acf0e127737ec1d57afe1321b15d769c23e306ba6fc3d0bdecf2ef50c",
+      "output_sha256": "4bdcf02acf0e127737ec1d57afe1321b15d769c23e306ba6fc3d0bdecf2ef50c"
+    },
+    {
+      "path": "tl/japanese/ko_speaker_parts.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/ko_speaker_parts.rpyc",
+      "payload_sha256": "29adb919b4205c5da49863505edcdbb3125916f424b0a823c98676eed37db432",
+      "output_sha256": "29adb919b4205c5da49863505edcdbb3125916f424b0a823c98676eed37db432"
+    },
+    {
+      "path": "tl/japanese/scripts/screens/thanks_list/data/staff_data.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/screens/thanks_list/data/staff_data.rpy",
+      "payload_sha256": "67e45f57531ee1be958c538718ca47f05967dc8bc5e6f221c9052cf8839c8650",
+      "output_sha256": "67e45f57531ee1be958c538718ca47f05967dc8bc5e6f221c9052cf8839c8650"
+    },
+    {
+      "path": "tl/japanese/scripts/screens/thanks_list/data/staff_data.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/screens/thanks_list/data/staff_data.rpyc",
+      "payload_sha256": "43ad3359915db49d633075a06c6ea47082d595648ed9311746b2a09fb7235d17",
+      "output_sha256": "43ad3359915db49d633075a06c6ea47082d595648ed9311746b2a09fb7235d17"
+    },
+    {
+      "path": "zz_ko_release_profile.rpyc",
+      "kind": "file",
+      "payload": "payload/zz_ko_release_profile.rpyc",
+      "payload_sha256": "e653e16ffbd077590b4a706f956267e5df7118c66408502a1e02dc488218aafa",
+      "output_sha256": "e653e16ffbd077590b4a706f956267e5df7118c66408502a1e02dc488218aafa"
+    },
+    {
+      "path": "fonts/ko/NotoSerifTibetan.ttf",
+      "kind": "file",
+      "payload": "payload/fonts/ko/NotoSerifTibetan.ttf",
+      "payload_sha256": "060ec022b04c306de3f58d051fb0e1cf81a5b610c5910fbfc43bba154c057cda",
+      "output_sha256": "060ec022b04c306de3f58d051fb0e1cf81a5b610c5910fbfc43bba154c057cda"
+    },
+    {
+      "path": "fonts/ko/NotoSerifTibetan-OFL.txt",
+      "kind": "file",
+      "payload": "payload/fonts/ko/NotoSerifTibetan-OFL.txt",
+      "payload_sha256": "0077789fc3cb20f358278ba4c6437eb14ade97d4d3e3281eaa42853efcd9dc8b",
+      "output_sha256": "0077789fc3cb20f358278ba4c6437eb14ade97d4d3e3281eaa42853efcd9dc8b"
+    },
+    {
+      "path": "zz_ko_quick_menu.rpy",
+      "kind": "file",
+      "payload": "payload/zz_ko_quick_menu.rpy",
+      "payload_sha256": "6022b7e09812a7ce76a7d245af6739d0c1c35423c73073dc93c7d173dd9f60fa",
+      "output_sha256": "6022b7e09812a7ce76a7d245af6739d0c1c35423c73073dc93c7d173dd9f60fa"
+    },
+    {
+      "path": "zz_ko_quick_menu.rpyc",
+      "kind": "file",
+      "payload": "payload/zz_ko_quick_menu.rpyc",
+      "payload_sha256": "2d40ef9a4bd984c56b1248e9decc482cf599eabd1280d0432ee1c7e389f9ce53",
+      "output_sha256": "2d40ef9a4bd984c56b1248e9decc482cf599eabd1280d0432ee1c7e389f9ce53"
+    },
+    {
+      "path": "zz_ko_reading_spacing.rpy",
+      "kind": "file",
+      "payload": "payload/zz_ko_reading_spacing.rpy",
+      "payload_sha256": "3501d2707b800b2d27e370274a18b0ac28ed41994c418fa05239cbe3012a9957",
+      "output_sha256": "3501d2707b800b2d27e370274a18b0ac28ed41994c418fa05239cbe3012a9957"
+    },
+    {
+      "path": "zz_ko_reading_spacing.rpyc",
+      "kind": "file",
+      "payload": "payload/zz_ko_reading_spacing.rpyc",
+      "payload_sha256": "27a1c4fe4dd9fadc70dd74290e9c22282b7eb2fd306dd4f02266b596580693bd",
+      "output_sha256": "27a1c4fe4dd9fadc70dd74290e9c22282b7eb2fd306dd4f02266b596580693bd"
+    },
+    {
+      "path": "fonts/ko/SignKoreanUIPunctuation-Regular.ttf",
+      "kind": "file",
+      "payload": "payload/fonts/ko/SignKoreanUIPunctuation-Regular.ttf",
+      "payload_sha256": "ae6ab1a3ce7e79dd635574453a623403ec9498db25d3580df0319516d734b11f",
+      "output_sha256": "ae6ab1a3ce7e79dd635574453a623403ec9498db25d3580df0319516d734b11f"
+    },
+    {
+      "path": "fonts/ko/SignKoreanUIPunctuation-OFL.txt",
+      "kind": "file",
+      "payload": "payload/fonts/ko/SignKoreanUIPunctuation-OFL.txt",
+      "payload_sha256": "9d12a89cdbb0ac6eaf52b4065808e33221fc9c0ca94165dbd8332a744b662231",
+      "output_sha256": "9d12a89cdbb0ac6eaf52b4065808e33221fc9c0ca94165dbd8332a744b662231"
+    },
+    {
+      "path": "zz_ko_item_pixel_font.rpy",
+      "kind": "file",
+      "payload": "payload/zz_ko_item_pixel_font.rpy",
+      "payload_sha256": "dc5b8d3dfd161897c69583ac09546c077f5770bc0a55d6f1490b9b5ca4e85838",
+      "output_sha256": "dc5b8d3dfd161897c69583ac09546c077f5770bc0a55d6f1490b9b5ca4e85838"
+    },
+    {
+      "path": "zz_ko_item_pixel_font.rpyc",
+      "kind": "file",
+      "payload": "payload/zz_ko_item_pixel_font.rpyc",
+      "payload_sha256": "752370ca3ab5e35128099da08e00fd2dce64de1b0cf0cdbfb5dee423a0a50fea",
+      "output_sha256": "752370ca3ab5e35128099da08e00fd2dce64de1b0cf0cdbfb5dee423a0a50fea"
+    },
+    {
+      "path": "fonts/ko/fusion-pixel-12px-monospaced-ko.ttf",
+      "kind": "file",
+      "payload": "payload/fonts/ko/fusion-pixel-12px-monospaced-ko.ttf",
+      "payload_sha256": "ae91c7bc115444e55c0a6e4260db98a1e9245d2ae1ac014fc26ee39770c96b92",
+      "output_sha256": "ae91c7bc115444e55c0a6e4260db98a1e9245d2ae1ac014fc26ee39770c96b92"
+    },
+    {
+      "path": "fonts/ko/FusionPixel-OFL.txt",
+      "kind": "file",
+      "payload": "payload/fonts/ko/FusionPixel-OFL.txt",
+      "payload_sha256": "bc518cf64b8032c07690f33cc270c35c179255a6ac8efa7c165ebae7e8f76a63",
+      "output_sha256": "bc518cf64b8032c07690f33cc270c35c179255a6ac8efa7c165ebae7e8f76a63"
+    },
+    {
+      "path": "fonts/ko/FusionPixel-LICENSES/ark-pixel/OFL.txt",
+      "kind": "file",
+      "payload": "payload/fonts/ko/FusionPixel-LICENSES/ark-pixel/OFL.txt",
+      "payload_sha256": "3ab41567e68e3988ba1ef16dd2644eca95ca5648ea12e7d46e6287fc0bbe5aee",
+      "output_sha256": "3ab41567e68e3988ba1ef16dd2644eca95ca5648ea12e7d46e6287fc0bbe5aee"
+    },
+    {
+      "path": "fonts/ko/FusionPixel-LICENSES/cubic-11/OFL.txt",
+      "kind": "file",
+      "payload": "payload/fonts/ko/FusionPixel-LICENSES/cubic-11/OFL.txt",
+      "payload_sha256": "2b6e5938e5cffa0b9e183bd05f8c363e174e7ebed1a0556e2855fd1707fa2188",
+      "output_sha256": "2b6e5938e5cffa0b9e183bd05f8c363e174e7ebed1a0556e2855fd1707fa2188"
+    },
+    {
+      "path": "fonts/ko/FusionPixel-LICENSES/galmuri/LICENSE.txt",
+      "kind": "file",
+      "payload": "payload/fonts/ko/FusionPixel-LICENSES/galmuri/LICENSE.txt",
+      "payload_sha256": "86a3ee9495f942f0243f18c103da9faca27adb88142613edb8bb852e56c892c1",
+      "output_sha256": "86a3ee9495f942f0243f18c103da9faca27adb88142613edb8bb852e56c892c1"
+    },
+    {
+      "path": "zz_ko_special_fonts.rpy",
+      "kind": "file",
+      "payload": "payload/zz_ko_special_fonts.rpy",
+      "payload_sha256": "eeb512bd8fa100449fb9278dbebe487599e4a0bf037553d0d1a4bf7c59e9abd6",
+      "output_sha256": "eeb512bd8fa100449fb9278dbebe487599e4a0bf037553d0d1a4bf7c59e9abd6"
+    },
+    {
+      "path": "zz_ko_special_fonts.rpyc",
+      "kind": "file",
+      "payload": "payload/zz_ko_special_fonts.rpyc",
+      "payload_sha256": "2c0babd82af4f8e94bc4dc50aa91c7dd29d8302ac872286e3d80d6be42a487c4",
+      "output_sha256": "2c0babd82af4f8e94bc4dc50aa91c7dd29d8302ac872286e3d80d6be42a487c4"
+    },
+    {
+      "path": "zz_ko_latin_alignment.rpy",
+      "kind": "file",
+      "payload": "payload/zz_ko_latin_alignment.rpy",
+      "payload_sha256": "f9b3df6cedba45645551e400dc06122836893e210c3ae8bc7b59276185d04280",
+      "output_sha256": "f9b3df6cedba45645551e400dc06122836893e210c3ae8bc7b59276185d04280"
+    },
+    {
+      "path": "zz_ko_latin_alignment.rpyc",
+      "kind": "file",
+      "payload": "payload/zz_ko_latin_alignment.rpyc",
+      "payload_sha256": "2a4b51e0b5b8af871504a0bb47beebcaf982137e5c37e033febd60e90f223ce3",
+      "output_sha256": "2a4b51e0b5b8af871504a0bb47beebcaf982137e5c37e033febd60e90f223ce3"
+    },
+    {
+      "path": "zz_ko_speaker_alignment.rpy",
+      "kind": "file",
+      "payload": "payload/zz_ko_speaker_alignment.rpy",
+      "payload_sha256": "7cebbb833b70bfe849a49b01a6b444307c56010c7ff3a91d7e1f073084283e45",
+      "output_sha256": "7cebbb833b70bfe849a49b01a6b444307c56010c7ff3a91d7e1f073084283e45"
+    },
+    {
+      "path": "zz_ko_speaker_alignment.rpyc",
+      "kind": "file",
+      "payload": "payload/zz_ko_speaker_alignment.rpyc",
+      "payload_sha256": "6186a54a9647b5e47eef6e967279a2f0a99cd732eaf8ac7b72f970596bcebe9a",
+      "output_sha256": "6186a54a9647b5e47eef6e967279a2f0a99cd732eaf8ac7b72f970596bcebe9a"
+    },
+    {
+      "path": "zz_ko_dictionary_notify.rpy",
+      "kind": "file",
+      "payload": "payload/zz_ko_dictionary_notify.rpy",
+      "payload_sha256": "27e4d970c465baf993ba36dd85f7471e09a0583881494d2936446be5c085d1fd",
+      "output_sha256": "27e4d970c465baf993ba36dd85f7471e09a0583881494d2936446be5c085d1fd"
+    },
+    {
+      "path": "zz_ko_dictionary_notify.rpyc",
+      "kind": "file",
+      "payload": "payload/zz_ko_dictionary_notify.rpyc",
+      "payload_sha256": "10db8c3f49204aff9d8dc0c126264c6e1b9f9a422f100cd2079a9494fd8f5964",
+      "output_sha256": "10db8c3f49204aff9d8dc0c126264c6e1b9f9a422f100cd2079a9494fd8f5964"
+    },
+    {
+      "path": "tl/japanese/scripts/origin/staging/muru.rpy",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/origin/staging/muru.rpy",
+      "payload_sha256": "c96d54b641750b56251e1502655b453bdbbf069e460aeeccb2b082348cc7d19a",
+      "output_sha256": "c96d54b641750b56251e1502655b453bdbbf069e460aeeccb2b082348cc7d19a"
+    },
+    {
+      "path": "tl/japanese/scripts/origin/staging/muru.rpyc",
+      "kind": "file",
+      "payload": "payload/tl/japanese/scripts/origin/staging/muru.rpyc",
+      "payload_sha256": "04c301953f3a94b28a4e9a92dd1f94857715613f7a82bdea36335cc9b8ded464",
+      "output_sha256": "04c301953f3a94b28a4e9a92dd1f94857715613f7a82bdea36335cc9b8ded464"
+    },
+    {
+      "path": "zz_ko_ruby_glitch.rpy",
+      "kind": "file",
+      "payload": "payload/zz_ko_ruby_glitch.rpy",
+      "payload_sha256": "3b647f435cec9c9084e734800737433d264e2895b3068a613a4f608ff937a57e",
+      "output_sha256": "3b647f435cec9c9084e734800737433d264e2895b3068a613a4f608ff937a57e"
+    },
+    {
+      "path": "zz_ko_ruby_glitch.rpyc",
+      "kind": "file",
+      "payload": "payload/zz_ko_ruby_glitch.rpyc",
+      "payload_sha256": "713cd7790557faad471d4473d4dc9a57d4f1af639834d945a0e1180f4ae3ebcb",
+      "output_sha256": "713cd7790557faad471d4473d4dc9a57d4f1af639834d945a0e1180f4ae3ebcb"
+    },
+    {
+      "path": "zz_ko_window_transition.rpy",
+      "kind": "file",
+      "payload": "payload/zz_ko_window_transition.rpy",
+      "payload_sha256": "d4485d5e01c1c7652cf555bfcdd5ce938a0c3cf56d43227189b541127ac6d5e7",
+      "output_sha256": "d4485d5e01c1c7652cf555bfcdd5ce938a0c3cf56d43227189b541127ac6d5e7"
+    },
+    {
+      "path": "zz_ko_window_transition.rpyc",
+      "kind": "file",
+      "payload": "payload/zz_ko_window_transition.rpyc",
+      "payload_sha256": "621f74038be43e767a3149c95cf402915270d7363c7551510295515227a3ff3d",
+      "output_sha256": "621f74038be43e767a3149c95cf402915270d7363c7551510295515227a3ff3d"
+    }
+  ]
+}

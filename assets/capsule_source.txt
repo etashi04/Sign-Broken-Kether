@@ -1,0 +1,9 @@
+게임: Sign: Broken Kether
+개발사: 猫猫毛工坊Nekonoke
+Steam 앱 ID: 3788590
+상점: https://store.steampowered.com/app/3788590/
+원본: https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3788590/07c9b96b5b4244c523c1a24da7011a9e90def5ef/header.jpg?t=1793348803
+확보: 2026-11-10
+원본 자산 형식: JPEG
+보관 형식: 원본 해상도 PNG 변환
+상점 상세 페이지 우측 상단 소개문 위 header 이미지, 스크린샷 아님.
